@@ -1,4 +1,4 @@
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import { useState } from 'react';
 import { RoutesApp } from './routes';
 import {ToastContainer} from 'react-toastify';
@@ -11,9 +11,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='app'>
-        
+
         <Header/>
         <main className='content'>
           <RoutesApp/>
@@ -22,7 +22,7 @@ function App() {
 
         <ToastContainer autoClose={3000} theme="dark"/>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
