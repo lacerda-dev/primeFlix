@@ -1,0 +1,29 @@
+.not-found{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.not-found h1{
+    font-size: 120px;
+    color: #b0abab;
+}
+.not-found p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b0abab;
+}
+.not-found a{
+    text-decoration: none;
+    background-color: rgb(126, 13, 113);
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 14px;
+}
+.not-found a:hover{
+    transition: all .3s;
+    background-color: rgb(151, 27, 137);
+}
