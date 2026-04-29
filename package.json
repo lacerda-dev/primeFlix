@@ -2,7 +2,7 @@
   "name": "primeflix",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lacerda-dev.github.io/primeFlix",
+  "homepage": "https://lacerda-dev.github.io/primeFlix/",
   "type": "module",
   "scripts": {
     "dev": "vite",
