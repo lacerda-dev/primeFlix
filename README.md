@@ -20,5 +20,7 @@ This is a movie web application built with React that consumes data from the TMD
 
 ## Preview
 <img src="./assets/screenshot-1.png" alt="Preview do Projeto" width="500">
+<img src="./assets/screenshot-2.png" alt="Preview do Projeto" width="500">
+<img src="./assets/screenshot-3.png" alt="Preview do Projeto" width="500">
 
 
