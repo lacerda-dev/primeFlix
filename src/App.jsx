@@ -14,7 +14,7 @@ function App() {
     <HashRouter>
       <div className='app'>
 
-        <Header/>
+        <Header />
         <main className='content'>
           <RoutesApp/>
         </main>

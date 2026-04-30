@@ -64,7 +64,7 @@ export const Movies = () => {
   if(loading){
     return (
       <div>
-        <h1 className='movie-info'>Carregando detalhes...</h1>
+        <h1 className='loading'>Carregando...</h1>
       </div>
     )
   }
@@ -76,7 +76,7 @@ export const Movies = () => {
       <h3>Sinopse</h3>
       <span>{movie.overview}</span>
 
-      <p>Avaliação: {movie.vote_average} / 10</p>
+      <p>Avaliação: {movie.vote_average.toFixed(1)} / 10</p>
       <p className='run-time'>Duração: {movie.runtime} min</p>
 
       <div className='buttons-area'>
