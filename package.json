@@ -2,15 +2,15 @@
   "name": "primeflix",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lacerda-dev.github.io/primeFlix/",
+  "homepage": "https://lacerda-dev.github.io/movie-app-react/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.15.2",
