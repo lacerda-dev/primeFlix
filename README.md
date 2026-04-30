@@ -16,7 +16,7 @@ This is a movie web application built with React that consumes data from the TMD
 - TMDB API
 
 ## Live Demo
-[https://lacerda-dev.github.io/movie-app-react/]
+https://lacerda-dev.github.io/movie-app-react/
 
 ## Preview
 <img src="./assets/screenshot-1.png" alt="Preview do Projeto" width="500">
