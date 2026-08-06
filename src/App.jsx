@@ -1,5 +1,4 @@
 import {HashRouter} from 'react-router-dom';
-import { useState } from 'react';
 import { RoutesApp } from './routes';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -8,7 +7,6 @@ import { Footer } from './components/Footer';
 import './main.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <HashRouter>
